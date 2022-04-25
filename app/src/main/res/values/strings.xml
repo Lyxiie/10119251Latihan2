@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">10119251Latihan2</string>
+    <string name="doesnt_have">doesn\'t have account? <b>Register</b></string>
+    <string name="doesnt_have_code">doesn\'t have code? <b>Resend</b></string>
+    <string name="facebook">CONNECT WITH FACEBOOK</string>
+    <string name="desc">Thank you for registering with us. One more step, you need to check your email to active your account</string>
+
+</resources>

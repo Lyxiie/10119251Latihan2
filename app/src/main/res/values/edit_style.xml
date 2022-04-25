@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EdtRubikRegular" parent="Widget.AppCompat.EditText">
+    </style>
+
+    <style name="white_17" parent="EdtRubikRegular">
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="gray_15" parent="EdtRubikRegular">
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:textColorHint">@color/font_desc</item>
+        <item name="android:textColor">@color/font_desc</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="backgroundTint">@color/shadow_header</item>
+    </style>
+
+</resources>
