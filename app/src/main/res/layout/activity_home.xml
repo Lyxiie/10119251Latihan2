@@ -123,6 +123,7 @@
             android:layout_marginRight="65dp"
             android:layout_toLeftOf="@+id/no_100"
             android:text="BLOOD GIVE"
+            android:textColor="@color/font_title"
             android:translationZ="4dp" />
 
         <TextView
@@ -131,8 +132,9 @@
             android:layout_below="@+id/no_100"
             android:layout_centerHorizontal="true"
             android:layout_marginRight="65dp"
-            android:translationZ="4dp"
-            android:text="BLOOD RECEIVED" />
+            android:text="BLOOD RECEIVED"
+            android:textColor="@color/font_title"
+            android:translationZ="4dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -140,8 +142,9 @@
             android:layout_below="@+id/no_330"
             android:layout_marginLeft="80dp"
             android:layout_toRightOf="@+id/no_100"
-            android:translationZ="4dp"
-            android:text="THANKS" />
+            android:text="THANKS"
+            android:textColor="@color/font_title"
+            android:translationZ="4dp" />
     </RelativeLayout>
     <RelativeLayout
         android:id="@+id/relative_3"
@@ -176,7 +179,8 @@
             android:layout_below="@+id/text_search"
             android:layout_marginLeft="45dp"
             android:text="Search donor near you"
-            android:textSize="12dp" />
+            android:textSize="12dp"
+            android:textColor="@color/font_desc"/>
 
         <ImageView
             android:id="@+id/blood_needed"
@@ -192,7 +196,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/blood_needed"
-            android:layout_marginLeft="90dp"
+            android:layout_marginLeft="100dp"
             android:layout_toRightOf="@id/search_donor"
             android:text="Blood Needed"
             android:textColor="@color/black"
@@ -204,9 +208,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_blood_needed"
-            android:layout_marginLeft="95dp"
+            android:layout_marginLeft="105dp"
             android:layout_toRightOf="@id/search_donor"
             android:text="4 Users need blood"
+            android:textColor="@color/font_desc"
             android:textSize="12dp" />
 
         <ImageView
@@ -235,7 +240,8 @@
             android:layout_below="@+id/text_message"
             android:layout_marginLeft="60dp"
             android:text="5 New Messages"
-            android:textSize="12dp" />
+            android:textSize="12dp"
+            android:textColor="@color/font_desc"/>
 
         <ImageView
             android:id="@+id/donor_history"
@@ -252,7 +258,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/donor_history"
-            android:layout_marginLeft="90dp"
+            android:layout_marginLeft="100dp"
             android:layout_toRightOf="@id/search_donor"
             android:text="Donor History"
             android:textColor="@color/black"
@@ -263,10 +269,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_donor_history"
-            android:layout_marginLeft="95dp"
+            android:layout_marginLeft="105dp"
             android:layout_toRightOf="@id/search_donor"
             android:text="5 Gives, 2 Received"
-            android:textSize="12dp" />
+            android:textSize="12dp"
+            android:textColor="@color/font_desc"/>
     </RelativeLayout>
 
 
